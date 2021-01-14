@@ -1,8 +1,15 @@
+
+//@author:  Basheer Ahamed
+//@version 1.0
+//@since   01/14/2021 
+
+
+
 class webBrowserPage{
 
 
     get cookieschk() { return $('//button[normalize-space()=\'Cookies akzeptieren\']')}
-
+    //############################# Open Browser with URL Function ##########################    
      async OpenBrowser()
      {
          
@@ -12,7 +19,7 @@ class webBrowserPage{
          
 
     }
-
+    //############################# Click cookies popup function ########################## 
     async Acceptcookies() 
         {
             await browser.pause(4000);

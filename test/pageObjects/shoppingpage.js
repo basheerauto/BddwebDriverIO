@@ -1,6 +1,16 @@
+
+//@author:  Basheer Ahamed
+//@version 1.0
+//@since   01/14/2021 
+
+
+
+
 import webBrowser from "../pageObjects/webBrowser";
 
 class shoppingpage{
+
+    //################ Locators Defined #################################
 
     get searchproducts  () { return $('//input[@placeholder=\'Produktsuche...\']') }
     get productlist  () { return $('//div[contains(text(),\'Produkte\')]') }
@@ -17,7 +27,7 @@ class shoppingpage{
     get wishlistdeletemsg() {return $('//p[contains(@class,\'wishlistNoProducts\')]')}
     get cookieschk() { return $('//button[normalize-space()=\'Cookies akzeptieren\']')}
 
-
+    //################ Product Search function #################################
         async search (search) 
         {
             (await this.searchproducts).click
@@ -26,7 +36,7 @@ class shoppingpage{
             await(await this.searchproducts).keys('Enter')
             webBrowser.Acceptcookies();
         }
-
+        //################ Find list of product function #################################
          async listofproducts()   
          {            
             browser.pause(2000);
@@ -35,7 +45,7 @@ class shoppingpage{
             browser.pause(2000);
         }
 
-
+        //################ Click first product wishlist icon function ######################      
            async ClickWishListIcon() 
         {
             webBrowser.Acceptcookies()
@@ -45,7 +55,7 @@ class shoppingpage{
             await browser.pause(2000);
             
         }
-
+        //################ switch to user login overlay function ######################   
         async switchloginoverlay()
         {
             await browser.pause(2000);
@@ -53,7 +63,7 @@ class shoppingpage{
             console.log("User login overlay exist="+overlay)
 
         }
-
+        //################ Existing user login function ######################    
             async userlogin (Username,Password) 
         {
             await browser.pause(2000);
@@ -67,14 +77,14 @@ class shoppingpage{
             (await this.registertxt).click();
             await browser.pause(2000);
         }
-
+        //################ verify selected item addded in whishlist function  ###################### 
         async verifywhishlistitem()
         {
             const wlist = await(await this.wishlistitemadded).getText()
             console.log("List of products added in the wishlist="+wlist)
             browser.pause(1000); 
         }
-
+        //################ Navigate to wishlist dashboard function  ###################### 
         async wishlistdashboardlink()
         {
             const whlist=await(await this.whishlist).isExisting();
@@ -82,7 +92,7 @@ class shoppingpage{
             await(await this.whishlist).click(); 
 
         }
-
+         //################ Delete selected whislist  function  ###################### 
         async deletewhishlist()
         {
             browser.pause(1000); 
@@ -91,7 +101,7 @@ class shoppingpage{
             await(await this.deleteicon).click();
 
         }
-
+        //################ Verify empty whishlist message function  ######################
         async wishlistemptymsg()
         {
             await browser.pause(3000);

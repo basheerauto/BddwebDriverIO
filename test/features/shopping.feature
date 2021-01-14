@@ -1,3 +1,9 @@
+#####@author: Basheer Ahamed
+######@version 1.0
+######@since   01/14/2021 
+#######@//Product flow feature file.
+
+
 Feature: User navigate to  westwingnow digital shopping portal to Add and Delete Product wishlist
 
 Background:
