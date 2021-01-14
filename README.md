@@ -41,7 +41,7 @@
 <p>&nbsp;&nbsp;&nbsp; Then I delete the product from my wishlist</p>
 <p>&nbsp;&nbsp;&nbsp; Then verify whishlist empty message &nbsp;</p>
 <p>&nbsp;&nbsp;&nbsp; <strong>Examples</strong>:</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Product&nbsp;&nbsp;&nbsp; | Username&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Password&nbsp; |</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Product&nbsp;&nbsp;&nbsp; | Username&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Password&nbsp; |</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | M&ouml;bel&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |basheerahamed.career@gmail.com&nbsp; | ttest1234*|</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
