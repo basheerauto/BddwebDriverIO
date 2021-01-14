@@ -15,7 +15,7 @@ class webBrowserPage{
 
     async Acceptcookies() 
         {
-            await browser.pause(3000);
+            await browser.pause(4000);
             (await this.cookieschk).click();            
             
         }
