@@ -1,0 +1,25 @@
+{
+  "name": "webdriveriocucumber",
+  "version": "1.0.0",
+  "description": "shopping westwingnow.de",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf.js"
+  },
+  "author": "Basheer Ahamed",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/register": "^7.12.10",
+    "@wdio/cli": "^6.11.3",
+    "@wdio/cucumber-framework": "^6.11.1",
+    "@wdio/local-runner": "^6.11.3",
+    "@wdio/spec-reporter": "^6.11.0",
+    "chromedriver": "^87.0.5",
+    "wdio-chromedriver-service": "^6.0.4",
+    "webdriverio": "^6.11.3"
+  }
+  
+}
