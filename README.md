@@ -68,7 +68,7 @@
 <p><strong>Run Command</strong></p>
 </td>
 <td width="462">
-<p>&ldquo;$ npm run Test&rdquo;</p>
+<p>&ldquo;$ npm run test&rdquo;</p>
 </td>
 </tr>
 <tr>
