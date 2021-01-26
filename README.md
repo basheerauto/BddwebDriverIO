@@ -3,7 +3,7 @@
 <table style="width: 1019.03px;">
 	<tbody>
 		<tr>
-			<td style="width: 1009.03px;"><span style="color: #0000ff;"><strong>WestWing</strong> <strong>-Task 2 - Create a test automation script covering a provided use case on westwingnow.de</strong></span></td>
+			<td style="width: 1009.03px;"><span style="color: #0000ff;"><strong>WestWing</strong> <strong>- Create a test automation script covering a provided use case on westwingnow.de</strong></span></td>
 		</tr>
 	</tbody>
 </table>
